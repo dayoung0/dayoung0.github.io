@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("eerie_haunted_pond.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+
+  min-width: 100%;
+}
+
+.dmg-container {
+  position: absolute;
+  width: 2.5%; /* Adjust the width as needed */
+  height: 50%; /* Adjust the height as needed */
+  background-color: #ccc; /* Background color for the container */
+  overflow: hidden;
+  bottom: 0;
+  margin-left: 2%;
+}
+
+#dmgBuff-bar {
+  position: absolute;
+  width: 90%;
+  background-color: #4caf50; /* Green */
+  height: 0; /* Initialize height to 0 */
+  bottom: 5%;
+}
+
+#dmgBuff-button {
+  position: absolute;
+  bottom: 0%;
+  left: 0;
+  width: 5%;
+  height: 5%;
+}
+
+.time-container {
+  position: absolute;
+  width: 2.5%; /* Adjust the width as needed */
+  height: 50%; /* Adjust the height as needed */
+  background-color: #ccc; /* Background color for the container */
+  overflow: hidden;
+  bottom: 0;
+  margin-right: 2%;
+  right: 0;
+}
+
+#timeBuff-bar {
+  position: absolute;
+  width: 90%;
+  background-color: #4caf50; /* Green */
+  bottom: 5%;
+}
+
+#time-buff-button {
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  width: 5%;
+  height: 5%;
+}
+#level {
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  font-size: 7vh;
+}
+
+#store-button {
+  position: absolute;
+  top: 1%;
+  right: 1%;
+
+  padding: 15px;
+}
+
+.inventory {
+  position: fixed;
+  width: 50%;
+  bottom: 20%;
+  left: 37.5%;
+}
+.inventory button {
+  width: 100px;
+  height: 100px;
+}
+.imageContainer {
+  float: left;
+}
